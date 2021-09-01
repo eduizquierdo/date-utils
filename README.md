@@ -16,4 +16,6 @@ Date utilities for ODM Decision Services
   
 ## Contact
 *eduardo.izquierdo@decide4ai.com*
+"eduardo.izquierdo@decidesoluciones.es"
+
 
