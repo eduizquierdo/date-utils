@@ -3,6 +3,7 @@ package com.decide.odm;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
 import java.util.Date;
 
 public class DateUtil {
@@ -13,7 +14,8 @@ public class DateUtil {
         return ChronoUnit.DAYS.between(local1, local2);
     }
 
-    public DateUtil() {
-
+    public static Date getDateOfToday() {
+        return Calendar.getInstance().getTime();
     }
+
 }
