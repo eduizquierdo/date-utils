@@ -12,7 +12,7 @@ Date utilities for ODM Decision Services
 
 - **V0.2** [branch "adding functionlity] 
   - added support for TODAY
-  - some other minor changed
+  - some other minor changes
   
 ## Contact
 *eduardo.izquierdo@decide4ai.com*
