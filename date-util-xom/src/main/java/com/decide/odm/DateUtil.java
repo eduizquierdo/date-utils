@@ -1,5 +1,6 @@
 package com.decide.odm;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
@@ -16,6 +17,11 @@ public class DateUtil {
 
     public static Date getDateOfToday() {
         return Calendar.getInstance().getTime();
+    }
+
+    public static String getDateAsString(Date d) {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        return format.format(d);
     }
 
 }
